@@ -1,4 +1,4 @@
-package applyFunction;
+package NNMath.applyFunction;
 
 public interface OneVariableFunction<T> {
 

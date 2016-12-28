@@ -1,8 +1,8 @@
-package appliables;
+package NNMath.appliables;
 
-import applyFunction.OneVariableFunction;
-import complex.Complex;
-import complex.ComplexUtil;
+import NNMath.applyFunction.OneVariableFunction;
+import NNMath.complex.Complex;
+import NNMath.complex.ComplexUtil;
 
 public class DerivativeFunctionComplex implements OneVariableFunction<Complex>{
 

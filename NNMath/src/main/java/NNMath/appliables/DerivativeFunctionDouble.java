@@ -1,6 +1,6 @@
-package appliables;
+package NNMath.appliables;
 
-import applyFunction.OneVariableFunction;
+import NNMath.applyFunction.OneVariableFunction;
 
 public class DerivativeFunctionDouble implements OneVariableFunction<Double> {
 

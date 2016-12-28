@@ -1,7 +1,7 @@
-package function;
+package NNMath.function;
 
-import exception.NegativeNumberException;
-import exception.OverflowException;
+import NNMath.exception.NegativeNumberException;
+import NNMath.exception.OverflowException;
 
 public class Factorial {
 

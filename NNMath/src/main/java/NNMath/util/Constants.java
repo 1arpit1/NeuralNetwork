@@ -1,4 +1,4 @@
-package util;
+package NNMath.util;
 
 public class Constants {
 	public static final double PI=3.141592653589793;

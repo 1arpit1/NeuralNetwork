@@ -1,8 +1,9 @@
-package applyFunction;
+package NNMath.applyFunction;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import complex.Complex;
+
+import NNMath.complex.Complex;
 
 public abstract class OneVariableIterativeFunction<T> implements OneVariableFunction<T> {
 

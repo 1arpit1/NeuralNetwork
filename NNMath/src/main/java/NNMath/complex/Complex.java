@@ -1,8 +1,8 @@
-package complex;
+package NNMath.complex;
 
 import java.util.ArrayList;
 
-import exception.UnperformableActionException;
+import NNMath.exception.UnperformableActionException;
 
 public class Complex implements Cloneable {
 	

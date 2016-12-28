@@ -1,4 +1,4 @@
-package exception;
+package NNMath.exception;
 
 public class UnperformableActionException extends RuntimeException {
 
