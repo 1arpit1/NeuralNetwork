@@ -8,8 +8,8 @@ public abstract class OneVariableIterativeFunction<T> implements OneVariableFunc
 
 	protected int noOfIterations;
 	protected int maximumIterations = 1000;
-	protected final Complex complexDesiredPrecision = new Complex(0.000001, 0.001, true);
-	protected final double doubleDesiredPrecision = 1.0536712127723509E-8;
+	protected static final Complex complexDesiredPrecision = new Complex(0.000001, 0.001, true);
+	protected static final double doubleDesiredPrecision = 1.0536712127723509E-8;
 	protected T desiredPrecision;
 	protected T precision;
 	protected T result;
@@ -62,9 +62,6 @@ public abstract class OneVariableIterativeFunction<T> implements OneVariableFunc
 	public OneVariableFunction<T> getFunction() {
 		return function;
 	}
-	public void setFunction(OneVariableFunction<T> _function) {
-		this.function = _function;
-	}
 	public T evaluateOneMoreIteration() {
 		return evaluateIteration();
 	}
@@ -84,5 +81,6 @@ public abstract class OneVariableIterativeFunction<T> implements OneVariableFunc
 	protected abstract void initializeIterations();
 	protected abstract void finalizeIterations();
 	protected abstract T evaluateIteration();
-
+	public abstract void setFunction(OneVariableFunction<T> _function);
+	
 }
