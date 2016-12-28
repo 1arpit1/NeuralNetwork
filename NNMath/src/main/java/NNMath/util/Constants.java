@@ -1,5 +1,7 @@
 package NNMath.util;
 
+import NNMath.complex.Complex;
+
 public class Constants {
 	public static final double PI=3.141592653589793;
 	public static final double E=2.718281828459045;	
@@ -17,7 +19,7 @@ public class Constants {
 	static public final double smallNumber = 2.2227587494850775E-162;
 	static public final double largestNumber = 1.7976931348623157E308;
 	static public final double defaultNumericalPrecision = 1.0536712127723509E-8;
-//	static public final Complex defaultComplexPrecision=new Complex(0.00001,0.001,true);
+	static public final Complex defaultComplexPrecision=new Complex(0.00001,0.001,true);
 	static public final double machinePrecision = 1.1102230246251565E-16;
 	static public final double negativeMachinePrecision = 5.551115123125783E-17;
 	static public final double smallestNumber = 4.9E-324;
