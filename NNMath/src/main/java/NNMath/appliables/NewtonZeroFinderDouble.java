@@ -51,7 +51,7 @@ public class NewtonZeroFinderDouble extends OneVariableIterativeProcess<Double> 
 	 * SET FUNCTION TO INPUT, DERIVATIVE TO NULL
 	 */
 	public void setFunction(OneVariableFunction<Double> func) {
-		this.setFunction(func);
+		this.function = func;
 		df = null;
 	}
 
