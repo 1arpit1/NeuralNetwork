@@ -1,6 +1,6 @@
 package NNMath.appliables;
 
-import NNMath.applyFunction.OneVariableFunction;
+import NNMath.apply.OneVariableFunction;
 import NNMath.complex.Complex;
 import NNMath.complex.ComplexUtil;
 

@@ -1,7 +1,7 @@
 package NNMath.appliables;
 
-import NNMath.applyFunction.OneVariableFunction;
-import NNMath.applyFunction.OneVariableIterativeProcess;
+import NNMath.apply.OneVariableFunction;
+import NNMath.apply.OneVariableIterativeProcess;
 import NNMath.exception.UnperformableActionException;
 import NNMath.util.Constants;
 

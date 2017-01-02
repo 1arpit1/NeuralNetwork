@@ -1,7 +1,7 @@
 package NNMath.appliables;
 
-import NNMath.applyFunction.OneVariableFunction;
-import NNMath.applyFunction.OneVariableIterativeProcess;
+import NNMath.apply.OneVariableFunction;
+import NNMath.apply.OneVariableIterativeProcess;
 import NNMath.complex.Complex;
 import NNMath.complex.ComplexUtil;
 import NNMath.exception.UnperformableActionException;
@@ -34,7 +34,7 @@ public class NewtonZeroFinderComplex extends OneVariableIterativeProcess<Complex
 	}
 
 	public void setFunction(OneVariableFunction<Complex> func) {
-		this.setFunction(func);
+		this.function = func;
 		df = null;
 	}
 

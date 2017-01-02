@@ -1,7 +1,7 @@
 package NNMath.polynomial;
 
 import NNMath.appliables.NewtonZeroFinderComplex;
-import NNMath.applyFunction.OneVariableFunction;
+import NNMath.apply.OneVariableFunction;
 import NNMath.complex.Complex;
 import NNMath.complex.ComplexUtil;
 import NNMath.exception.UnperformableActionException;
